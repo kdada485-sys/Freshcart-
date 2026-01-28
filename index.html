@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <google-site-verification=cIL-zTsqDxi4Iq-ItXEe5dXgFTwHwxTrbIxhq6M3oyY
+
+  <title>FreshCart | Online Grocery Store</title>
+
+  <meta name="description" content="FreshCart is an online grocery store with admin panel.">
+  <meta name="robots" content="index, follow">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>FreshCart</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#" id="cart-btn">Cart (<span id="cart-count">0</span>)</a>
+  </nav>
+</header>
+
+<section id="products">
+  <h2>Products</h2>
+  <div id="product-list"></div>
+</section>
+
+<section id="cart" class="hidden">
+  <h2>Your Cart</h2>
+  <div id="cart-items"></div>
+  <p>Total: $<span id="total">0</span></p>
+</section>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

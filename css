@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+header {
+  background: #2ecc71;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.product {
+  background: white;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  background: #2ecc71;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
